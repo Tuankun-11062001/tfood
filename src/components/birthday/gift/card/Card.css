@@ -1,0 +1,53 @@
+.birthday--card{
+    width:calc(33.3% - 9rem);
+    background: var(--text--primary--color);
+    color:var(--text-second-color);
+    padding:2rem;
+    font-size: 1.7rem;
+    margin:0 3rem;
+    border-radius: 2rem;
+}
+
+.birthday--card ul li{
+    margin-bottom:1.6rem;
+}
+
+.btn-join{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    border:0.1rem solid var(--text-second-color);
+    color: var(--text-second-color);
+    font-size:1.7rem;
+    font-weight:700;
+    border-radius: 10rem;
+    margin-top: calc(3rem - 1.6rem);
+    padding:1rem 2rem;
+    transition: var(--transition);
+}
+
+.btn-join:hover{
+    background-color: var(--text-second-color);
+    color: var(--text--primary--color);
+}
+
+@media (max-width:1024px){
+    .birthday--card {
+        width: calc(33.3% - 3rem);
+        margin:1.3rem;
+    }
+}
+
+@media (max-width:768px){
+    .birthday--card {
+        width: calc(50% - 2rem);
+        margin:1rem;
+    }
+}
+
+@media (max-width:500px){
+    .birthday--card {
+        width: 100%;
+        margin:1rem;
+    }
+}

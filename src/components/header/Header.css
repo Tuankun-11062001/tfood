@@ -1,0 +1,36 @@
+
+/* header */
+.header{
+    display: flex;;
+    align-items: center;
+    padding:2rem 0;
+}
+
+
+/* align btn */
+
+.btn-transform{
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+}
+
+.btn-transform svg{
+    margin-left:1rem;
+}
+
+/* reponsive header */
+
+@media (max-width:1024px) {
+    .header{
+        padding:2rem;
+    }
+}
+
+
+@media (max-width:600px) {
+    
+    .btn-transform{
+        display: none;
+    }
+}

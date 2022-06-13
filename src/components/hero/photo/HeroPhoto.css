@@ -1,0 +1,21 @@
+.hero--photo{
+    width: 51.8rem;
+    height: 55rem;
+    flex:1;
+    margin-left:5rem;
+}
+
+@media (max-width:1024px){
+    .hero--photo{
+        width: 51.8rem;
+        height: 55rem;
+        flex: 1 1;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width:768px){
+    .hero--photo{
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.birthday{
+    margin-top:15rem;
+    background: url("../../asset/img/birthday__bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:10rem 0;
+}
+
+.birthday--title{
+    font-size: 4rem;
+    font-weight:700;
+    color:var(--text--primary--color);
+    text-align: center;
+    margin-bottom:3.5rem;
+}
+
+.birthday--date{
+    width:37rem;
+    height: 13rem;
+}
